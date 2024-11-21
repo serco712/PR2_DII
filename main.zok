@@ -1,0 +1,5 @@
+// Example from https://zokrates.github.io/gettingstarted.html
+
+def main(private field age, field legal_age) -> bool {
+	return age >= legal_age;
+}
